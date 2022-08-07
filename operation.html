@@ -12,27 +12,30 @@
         {
             let num1=Number1;
             let num2=Number2;
+            var res=opn;
         switch(opn)
         {
             
-            case 1:"add";
-            let result=0;
+            case "add":
+            let res=0;
              result=num1+num2;
-            console.log(`${result}`);
+            console.log(`${res}`);
             break;
-            case 2:"subtract";
-            result=num1-num2;
-            console.log(`${result}`);
+            case "subtract":
+            res=num1-num2;
+            console.log(`${res}`);
             break;
-            case 3:"division";
+            case "division":
             result=num1/num2;
-            console.log(`${result}`);
+            console.log(`${res}`);
             break;
            
 
         }
     }
         operation(1,2,"add");
+        operation(1,2,"subtract");
+        operation(1,2,"division");
     </script>
     
 </body>
