@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const getBudgets = [
+            { name: "John", age: 21, budget: 23000 },
+            { name: "Steve", age: 32, budget: 40000 },
+            { name: "Martin", age: 16, budget: 2700 }
+        ];
+        let total = 0;
+        
+        for (let i = 0; i < getBudgets.length; i++) {
+            total += getBudgets[i].budget;
+            
+        }
+        console.log(`${total}`);
+
+
+        const getBudgets1 = [
+            { name: "John", age: 21, budget: 29000 },
+            { name: "Steve", age: 32, budget: 32000 },
+            { name: "Martin", age: 16, budget: 1600 }
+        ];
+        let total1 = 0;
+
+        for (let i = 0; i < getBudgets1.length; i++) {
+            total1 += getBudgets1[i].budget;
+
+        }
+        console.log(`${total1}`);
+
+    </script>
+
+</body>
+
+</html>
